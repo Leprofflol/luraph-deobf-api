@@ -1,0 +1,1 @@
+Luau 0.739 (luau + luau-ast), static Linux x86-64 build, vector metatable left writable (deobf patch, see deobf/build_luau.py)

@@ -1,0 +1,5 @@
+* text=auto eol=lf
+deobf/bin/luau binary
+deobf/bin/luau-ast binary
+*.lua text eol=lf
+*.luau text eol=lf
