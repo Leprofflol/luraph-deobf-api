@@ -454,14 +454,6 @@ f.addEventListener('submit',async e=>{
 """
 
 
-@app.get("/")
+@app.get("/", response_class=HTMLResponse)
 def index():
-    return {
-        "ok": True,
-        "name": "Luraph v15 Deobfuscator API",
-        "endpoints": {
-            "deobfuscate": "POST /api/deobfuscate",
-            "detect": "POST /api/detect",
-            "health": "GET /api/health"
-        }
-    }
+    return INDEX_HTML
