@@ -454,6 +454,5 @@ f.addEventListener('submit',async e=>{
 """
 
 @app.get("/", response_class=HTMLResponse)
-@app.get("/")
 def index():
     return INDEX_HTML
